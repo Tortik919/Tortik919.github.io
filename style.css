@@ -1,3 +1,49 @@
-html{
+html {
     background-color: gold;
+
+}
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 120px;
+    font-size: 20px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    background-image: url('/img/Машина с градиентом.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.welcome__content {
+    background: linear-gradient(91.59deg, #FFE600 2.07%, #9BF20D 96.41%);
+    border-radius: 9px 9px 0px 0px;
+    padding: 20px;
+    display: flex;
 }
