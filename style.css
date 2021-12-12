@@ -47,3 +47,15 @@ header {
     padding: 20px;
     display: flex;
 }
+.about {
+    display: flex;
+    flex-direction: row;
+    background-image: url('/img/Component\ 5.png');
+    background-position: left;
+
+    height: 700px;
+}
+.about_img {
+    
+
+}
